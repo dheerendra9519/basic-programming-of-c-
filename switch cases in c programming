@@ -1,0 +1,21 @@
+#include<stdio.h>
+#define y 25
+#define z 35
+
+
+
+int main()
+{
+int x = 25;
+switch(x)
+
+{
+    case y: printf("it is 25");
+ break;
+ case z: printf("it is 35");
+ break;
+ default: printf(" it is default");
+ break;
+ return0;
+}
+}
